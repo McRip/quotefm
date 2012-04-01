@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "quotefm"
   gem.require_paths = ["lib"]
   gem.version       = Quotefm::VERSION
+
+  gem.add_development_dependency "rspec", "~> 2.9"
+  gem.add_dependency "httparty"
+  gem.add_development_dependency "fakeweb", "~> 1.3"
 end
